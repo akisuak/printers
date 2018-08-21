@@ -4,7 +4,7 @@
 
 
 
-<# TEOL
+<# TEOL KUITPRT01PW.unicph.domain
 Add-PrinterPort -Name "5_000_001" -PrinterHostAddress "10.76.34.11"
 Add-PrinterPort -Name "5_000_002" -PrinterHostAddress "10.76.34.12"
 Add-PrinterPort -Name "5_000_003" -PrinterHostAddress "10.76.34.13"
@@ -23,12 +23,12 @@ Add-PrinterPort -Name "5_000_015" -PrinterHostAddress "10.76.34.44"
 Add-PrinterPort -Name "5_000_016" -PrinterHostAddress "10.76.34.47"
 Add-PrinterPort -Name "5_000_017" -PrinterHostAddress "10.76.34.48"
 Add-PrinterPort -Name "5_000_018" -PrinterHostAddress "10.76.34.46"
-#>
+#
 
-# HR-SC
-# Add-PrinterPort -Name "5_000_019" -PrinterHostAddress "10.41.44.56"
+# HR-SC KUITPRT01PW.unicph.domain
+Add-PrinterPort -Name "5_000_019" -PrinterHostAddress "10.41.44.56"
 
-<# Museumsbygningen
+# Museumsbygningen KUITPRT01PW.unicph.domain
 Add-PrinterPort -Name "5_000_022" -PrinterHostAddress "10.76.20.70" # MUSSTCOLMPF1
 Add-PrinterPort -Name "5_000_023" -PrinterHostAddress "10.76.20.71" # mus2colmfp2
 Add-PrinterPort -Name "5_000_024" -PrinterHostAddress "10.76.20.77" # PROF77STCOLMFP
@@ -38,4 +38,5 @@ Add-PrinterPort -Name "5_000_027" -PrinterHostAddress "10.76.20.177" # PROF1COLM
 Add-PrinterPort -Name "5_000_028" -PrinterHostAddress "10.76.20.60" # MUS3COLMFP2
 Add-PrinterPort -Name "5_000_029" -PrinterHostAddress "10.76.20.144" # MUSSTCOLMFP2
 Add-PrinterPort -Name "5_000_030" -PrinterHostAddress "10.76.20.20" # MUS1COLMFP2
+Add-PrinterPort -Name "5_000_031" -PrinterHostAddress "10.76.20.170" # MUS1COLMFP2
 #>

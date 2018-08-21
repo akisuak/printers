@@ -3,8 +3,7 @@
 # Ports 001-019, and 022-031
 
 
-<#
-
+<# KUITPRT01PW
 Add-Printer -Name "TEO_Multi_Colour" -DriverName "KONICA MINOLTA Universal PCL v3.4" -PortName "5_000_001" -Location  "6B-0-13 FAK kopirum"
 Add-Printer -Name "TEO_Multi_Colour2" -DriverName "KONICA MINOLTA Universal PCL v3.4" -PortName "5_000_002" -Location "5C-0-13 PRIVACY koekken" -Published -Shared
 Add-Printer -Name "TEO_Multi_Colour3" -DriverName "KONICA MINOLTA Universal PCL v3.4" -PortName "5_000_003" -Location "6B-1-42 Printniche AST/SKC" -Published -Shared
@@ -26,7 +25,7 @@ Add-Printer -Name "Koblas6" -DriverName "HP Universal Printing PCL 6 (v6.6.0)" -
 Add-Printer -Name "5C-1-01_A_Printer" -DriverName "HP Universal Printing PCL 6 (v6.6.0)" -PortName "5_000_019" -Location "SAM 5C-1-01" -Published -Shared 
 #>
 
-<# Museumsbygningen og Professorvilla
+<# KUITPRT01PW Museumsbygningen og Professorvilla
 Add-Printer -Name "MUSSTCOLMPF1" -DriverName "KONICA MINOLTA Universal PCL v3.4" -PortName "5_000_022" -Location "MUS Stuen" -Published -Shared
 Add-Printer -Name "mus2colmfp2" -DriverName "KONICA MINOLTA Universal PCL v3.4" -PortName "5_000_023" -Location "MUS 2 Sal" -Published -Shared
 Add-Printer -Name "PROF77STCOLMFP" -DriverName "KONICA MINOLTA Universal PCL v3.4" -PortName "5_000_024" -Location "PROF Stuen" -Published -Shared
