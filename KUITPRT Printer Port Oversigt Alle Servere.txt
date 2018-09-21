@@ -1,4 +1,4 @@
-
+﻿
 # TEOL KUITPRT01PW.unicph.domain
 Add-PrinterPort -Name "5_000_001" -PrinterHostAddress "10.76.34.11"
 Add-PrinterPort -Name "5_000_002" -PrinterHostAddress "10.76.34.12"
@@ -78,3 +78,8 @@ Add-PrinterPort -Name "5_000_065" -PrinterHostAddress "10.76.20.62" # KAN2COLMFP
 Add-PrinterPort -Name "5_000_066" -PrinterHostAddress "10.76.20.82" # HOVLAS1 HP Laserjet Enterprise M506
 #
 
+# POC KUITPRT05PW
+
+Add-PrinterPort -Name "5_000_067" -PrinterHostAddress "10.76.20.21" # KONICA MUS 5-1-05
+Add-PrinterPort -Name "5_000_068" -PrinterHostAddress "10.76.20.148" # RICOH MUS 5-1-05
+Add-PrinterPort -Name "5_000_069" -PrinterHostAddress "10.76.20.149" # RICOH MUS 5-1-05
